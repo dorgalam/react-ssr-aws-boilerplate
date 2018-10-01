@@ -1,0 +1,17 @@
+<html>
+
+<head>
+  <link
+    href="<%- staticsUrl %>/styles.css"
+    rel="stylesheet"
+    />
+  <meta charset="utf-8">
+  <title>Boilerplate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div id="root"><%- appHtml %></div>
+  <script src="<%- staticsUrl %>/bundle<%if (!debug) {%>.min<%}%>.js"></script>
+</body>
+</html>

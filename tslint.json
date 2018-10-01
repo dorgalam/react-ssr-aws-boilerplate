@@ -1,0 +1,25 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rules": {
+    "no-submodule-imports": {
+      "severity": "off"
+    },
+    "no-implicit-dependencies": [true, ["~"]],
+    "interface-name": {
+      "severity": "off"
+    },
+    "object-literal-sort-keys": {
+      "severity": "off"
+    },
+    "no-console": {
+      "severity": "warn"
+    },
+    "ordered-imports": {
+      "severity": "off"
+    },
+    "variable-name": {
+      "severity": "off"
+    },
+    "max-classes-per-file": false
+  }
+}
